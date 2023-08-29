@@ -6,7 +6,7 @@ import ParagraphSkeleton from "../../Common/ParagraphSkeleton";
 
 const MyExpertise = () => {
 
-    const { isLoading, error, data } = useQuery('expertise', () =>
+    const { isLoading, data } = useQuery('expertise', () =>
         axios.get('api/expertise')
             .then(({ data }) => data)
             .catch(error => console.error('Error fetching testimonials:', error)))
@@ -18,8 +18,8 @@ const MyExpertise = () => {
 
                 {
                     isLoading ?
-                        [1, 2, 3, 4, 5, 6].map(() => (
-                            <ParagraphSkeleton className={"space-y-2 p-8"} />
+                        [1, 2, 3, 4, 5, 6].map((_,index) => (
+                            <ParagraphSkeleton key={index} className={"space-y-2 p-8"} />
                         ))
                         :
                         data?.map((data, key) => (

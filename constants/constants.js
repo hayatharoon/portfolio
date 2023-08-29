@@ -1,3 +1,5 @@
+// ------------------------ Side bar Data -------------------------------
+
 export const NAME = 'Haroon Hayat';
 
 export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Technical Blogger`;
@@ -38,6 +40,7 @@ export const TECH_STACK = [
   'TypeScript',
   'NodeJS',
   'Redux',
+  'Gatsby',
   'Zustand',
   'ElectronJS',
   'CSS',
@@ -47,6 +50,7 @@ export const TECH_STACK = [
   'REST API',
   'MongoDB',
   'MySQL',
+  'GraphQL',
   'Styled Components',
   'Git',
   'GitHub',
@@ -65,4 +69,14 @@ export const SOCIAL_LINKS = {
   LINKEDIN: 'https://www.linkedin.com/in/hayatharoon/',
   TWITTER: 'https://twitter.com/haron_hayat',
   FACEBOOK: 'https://www.facebook.com/haroon.hayat.568',
+};
+
+// ----------------------- Banner ------------------------
+
+export const BANNER_DATA = {
+  BANNER_TYPEWRITER: ['MERN Stack Developer', 'ReactJS Developer', 'Javascript Developer', 'Tech Enthusiast'],
+  COMPLETED_PROJECTS: '15+',
+  FREELANCE_CLIENTS: '10+',
+  HONORS_AND_AWARDS: '12+',
+  OPEN_SOURCE_CONTRIBUTION: '20+',
 };
