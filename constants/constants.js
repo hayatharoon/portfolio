@@ -6,7 +6,7 @@ export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tec
 
 export const DETAILS = {
   Residence: 'Pakistan',
-  City: 'Peshawar',
+  City: 'KP Swat',
   Age: '24',
 };
 
